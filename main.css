@@ -1,0 +1,64 @@
+body {
+  background: #E9E9EB;
+  font-family: sans-serif;
+  font-weight: lighter;
+
+}
+
+header { 
+background: #1A1C1B;
+height: 120px;
+color: white;
+}
+
+.admin {
+  display: block;
+  text-align: right;
+  width: 90%;
+  color: #3684B5;
+}
+.blue {
+  color: #3684B5;
+}
+.logo {
+  display: inline-block;
+  float: right;
+  padding: 0 20px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90%;
+  margin-left: 12%;
+  margin-top: 50px;
+  font-size: 13px;
+}
+.pic-card {
+  border: 2px solid black;
+  margin: 10px;
+  width: 250px;
+  height: 375px;
+}
+.card-info {
+  padding-left: 10px;
+  
+}
+.link-box {
+  word-wrap: break-word;
+  background: lightgray;
+  margin: 10px;
+  font-size: 12px;
+}
+.picture {
+  height: 30%;
+  background-image: url("buisnessguy.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.big-nums {
+  color: #3684B5;
+  font-size: 20px;
+  font-weight: bold;
+}
